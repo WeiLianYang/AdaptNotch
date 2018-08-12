@@ -59,12 +59,12 @@
 
 刘海屏
 有刘海屏真机的同学可以跳过这部分，首先在设置中打开“开发者选项”，找到“绘图”，找到“模拟具有凹口的显示屏”，选择“长型显示屏凹口”。如图：
-
+[!image][https://img-blog.csdn.net/20180812113402828?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2phdmFfYW5kcm9pZF9tYW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70]
              
 
 第二张图就是开启模拟选项后显示的切口样式，当然这个缺口是模拟的，目前真机普遍的刘海屏高度在90px左右，安卓模拟器模拟的刘海屏高度为144px。后面的图是开启一个应用的闪屏页没有适配刘海屏的高度时候的样子，顶部出现了黑色区域。这个黑色区域是因为刘海缺口导致的整个界面整体向下移。因为我们的闪屏页一般都是会全屏显示，那我们就需要适配刘海屏上的全屏样式了。
 
-坐好了，我要开始吹一波了。
+#### 坐好了，我要开始吹一波了。
 ```
  <style name="theme_loading" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         <item name="android:windowBackground">@drawable/loading</item>
@@ -354,4 +354,4 @@ public class DisplayCutoutUtil {
 ```
 OK，关于安卓P刘海屏的适配就介绍到这里了。其他关于全屏播放视频大家可以自己试试。欢迎大家留言与讨论！！！
 
-我的博客地址：https://blog.csdn.net/java_android_man/article/details/81516487
+### [我的博客地址](https://blog.csdn.net/java_android_man/article/details/81516487)
