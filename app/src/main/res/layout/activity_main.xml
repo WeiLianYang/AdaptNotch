@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        style="@style/tv_wrapContent.txt14"
+        android:text="做了适配的页面"
+        android:onClick="hasAdaptNotch"/>
+
+    <Button
+        style="@style/tv_wrapContent.txt14"
+        android:layout_marginTop="20dp"
+        android:text="没有做适配的页面"
+        android:onClick="notAdaptNotch"/>
+
+</LinearLayout>

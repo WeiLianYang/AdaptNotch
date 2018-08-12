@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="theme_loading" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/loading</item>
+    </style>
+
+    <style name="tv_wrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="tv_wrapContent.txt12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="tv_wrapContent.txt14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="tv_wrapContent.txt16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="tv_wrapContent.txt18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="tv_wrapContent.txt22">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+</resources>
